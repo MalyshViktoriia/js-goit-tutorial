@@ -231,6 +231,7 @@
 //   alert(`Не знаете? ${rightAnswer}!`);
 // }
 
+
 // ## Example 2 - Отображение времени (if...else)
 
 // Напиши скрипт для отображения часов и минут в консоли браузера в виде строки
@@ -422,7 +423,7 @@
 //   console.log("Відміна");
 // }
 
-const age = prompt("Enter your age");
+// const age = prompt("Enter your age");
 // let message = ''
 
 // if (age >= 21) {
@@ -431,6 +432,6 @@ const age = prompt("Enter your age");
 //   message = "You are not allowed";
 // }
 
-const message = age >= 21 ? "Wellcome" : "You are not allowed";
+// const message = age >= 21 ? "Wellcome" : "You are not allowed";
 
-console.log(message);
+// console.log(message);
