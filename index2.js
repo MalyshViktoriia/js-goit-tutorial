@@ -440,3 +440,40 @@
 // const minutes = totalMinutes % 60;
 // console.log(hours);
 // console.log(minutes);
+
+
+// - найти самое большое число
+// const numbers = [1, 34, 71, 45, 36, 882, 7635, 827, 826];
+// let biggestNumber = numbers.length[-1];
+
+// for (const number of numbers) {
+    
+//     if (number < biggestNumber) {
+//         biggestNumber = number;
+//     }
+// }
+// console.log(biggestNumber);
+
+//  соедини слова через запятую
+
+// const friends = ["Hello", "It`s", "Me", "My" , "Friend"];
+// const string = friends.join(",");
+// console.log(string);
+
+// const domain = "Tell me who you are and I will tell you who is your dog";
+// const slug = domain.toLowerCase().split(" ").join("-");
+
+// console.log(slug);
+
+const array1 = [1, 47, 23, 45];
+const array2 = [455, 23, 5];
+let total = 0;
+
+let numbers = array1.concat(array2);
+
+for (const number of numbers) {
+    total += number;
+    
+}
+
+console.log(total);
