@@ -6,6 +6,23 @@
 
 // // console.log(a === b); // false
 
+
+// function findLongestWord(string) {
+//   // Change code below this line
+//   let longestWord = " ";
+// const array = string.split(" ");
+// for (let i = 0; i < array.length; i+=1) {
+//   if (array[i].length > longestWord.length) {
+// longestWord = array[i];
+//   }
+
+// }
+
+// return longestWord;
+//   // Change code above this line
+// }
+
+
 // // # Модуль 2. Занятие 3. Массивы
 
 // // ## Example 1 - Базовые операции с массивом
@@ -444,7 +461,7 @@
 
 // - найти самое большое число
 // const numbers = [1, 34, 71, 45, 36, 882, 7635, 827, 826];
-// let biggestNumber = numbers.length[-1];
+// let biggestNumber = numbers[numbers.length -1];
 
 // for (const number of numbers) {
     
@@ -465,15 +482,15 @@
 
 // console.log(slug);
 
-const array1 = [1, 47, 23, 45];
-const array2 = [455, 23, 5];
-let total = 0;
+// const array1 = [1, 47, 23, 45];
+// const array2 = [455, 23, 5];
+// let total = 0;
 
-let numbers = array1.concat(array2);
+// let numbers = array1.concat(array2);
 
-for (const number of numbers) {
-    total += number;
+// for (const number of numbers) {
+//     total += number;
     
-}
+// }
 
-console.log(total);
+// console.log(total);
