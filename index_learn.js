@@ -30,3 +30,33 @@
 // console.log(numbers);
 // const result = numbers[0] * numbers[1];
 // console.log(result);
+
+
+
+// // ## Example 3 - Перебор массива
+
+// // Напиши скрипт для перебора массива `fruits` циклом `for`. Для каждого элемента
+// // массива выведи в консоль строку в формате `номер_элемента: значение_элемента`.
+// // Нумерация элементов должна начинаться с `1`.
+
+// // // ```js
+// const fruits = ["🍎", "🍇", "🍑", "🍌", "🍋"];
+// // // ```
+
+// for (const fruit of fruits) {
+//     console.log(`${fruits.indexOf(fruit) + 1}: ${fruit}`);
+    
+// }
+
+
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+
+  for (let i = 0; i < order.length; i += 1) {
+    total += order[i];
+  }
+
+  // Change code above this line
+  return total;
+}
